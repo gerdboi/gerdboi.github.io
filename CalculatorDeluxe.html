@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Calculator for Android</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Portfolio</a></li>
+							<li class="active"><a href="QLearning.html">Calculator for Android</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/jack-call-118547239/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/gerdboi" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Q-Learning and<br />
+									SARSA Algorithms</h1>
+								</header>
+								<div class="image main"><img src="images/calculator.PNG" alt="" /></div>
+								<p>I started this project for hands on experience using Android Studio after learning the basics of the program in a short course. The skills I developed in coding this basic calculator mostly surrounded the formatting of the calculator, though I did need to use a clever library as a mathematical engine for the calculator.</p>
+								<p>In formatting the layout of the screen, I decided it made the most sense to use a linear layout, since I would want all buttons to be equidistant and the same size (except for the "=" button). I learned how to nest linear layouts within each other, as well as the function of the layout_weight attribute, which I used to make the sizes of buttons and the layouts themselves proportional instead of static. </p>
+								<p>For the MainActivity.java file, I concatenated the corresponding number or symbol of each button clicked to a String. Then, using the Rhino library and the ScriptEngine class, the String was input and the answer was returned and displayed on the Answer TextView. For the parentheses, I used a simple toggle boolean to determine if the parenthese was an open or a close (this works for simple statements in parentheses, but fails in the case of nested parenthetical statements - will update in the future).</p>
+                                <p>To see my code, visit the repository on my github <a href='https://github.com/gerdboi/CalculatorDeluxe'>here</a>.</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section class="alt">
+							<h3>Location</h3>
+							<p>Westby, WI 54667</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p><a href="#">(608) 632-6678</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">jack.call95@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/jack-call-118547239/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/gerdboi" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
