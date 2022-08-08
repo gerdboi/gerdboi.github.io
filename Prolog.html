@@ -1,0 +1,92 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Prolog: Workout Progress Tracker</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Portfolio</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/jack-call-118547239/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://github.com/gerdboi" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>(WIP) Prolog:<br />
+									Workout Progress Tracker</h1>
+								</header>
+								<p>When I lift weights in the gym, I like to follow a program, which lays out the lifts I will do on each day of the week for a set amount of weeks. However, the only tool I have to log the weights I lift is a spreadsheet, which is usable, but not ideal. This gave me the idea to create my own app, which would keep track of programs, allow users to log the weights that they lift, and would produce a graph showing the progress made from week 1 to the final week of the program, and I decided to call the app "Prolog".</p>
+                                <p>I am coding this app in Android Studio, and the first problem I ran into had to do with the layout. Because not all programs have the same amount of lifts, I needed dynamic a way to create layout features for users to enter the lifts from their programs, as well as the goal amount of reps. For this, I needed to make a layout which featured a TextView to enter the workout, a drop menu for the number of reps, and Buttons to add rows or delete rows. I also needed to code a fragment to add a row each time a button is clicked. </p>
+                                <p>Next, I will need to figure out a way to store user entered data from week to week, which means I will need a backend which connects a user to a database. For the backend, I will use Java Spring Framework and for the database, I will use MySQL.</p>
+                                <p>Another trouble point I run into in the gym is when I forget the proper form for a movement. This means I need to close down my spreadsheet to open up a browser and wait for the browser to load a description of the lift and/or a video of proper form. To fix this, I want to include a feature in my app which would allow users to click on the name of a workout and be directed to a video and text description of the lift within the app. This will mean implementing web services, which I am eager to learn about.</p>
+                                <p>As I continue to work on this app, I want to add more and more features: a dashboard to communicate with other users; a profile tab to log basic user information (height, weight, goals, etc.); a motivational tab; and a marketplace to download other people's programs. I am treating all of these features as being much farther down the road, but I look forward to learning the full-stack app development process.</p>
+							</section>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section class="split contact">
+						<section class="alt">
+							<h3>Location</h3>
+							<p>Westby, WI 54667</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p><a href="#">(608) 632-6678</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="#">jack.call95@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/jack-call-118547239/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<li><a href="https://github.com/gerdboi" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+					</section>
+				</footer>
+
+				<!-- Copyright -->
+					
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
